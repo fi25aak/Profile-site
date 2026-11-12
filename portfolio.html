@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Furqan Haydar Iqbal Portfolio</title>
+  <meta name="description" content="Selected projects and coursework by Furqan Haydar Iqbal.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="site-title"><a href="index.html">Furqan Haydar Iqbal</a></p>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="interests.html">Technical Interests</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1>Portfolio</h1>
+    <p class="lead">Selected projects. Choose "Quick view" for a pop-up summary, or "Full details" to open the project page.</p>
+
+    <ul class="card-grid">
+      <li class="card">
+        <img src="images/project-placeholder.svg" width="400" height="240" alt="Placeholder screenshot for the Accessible Recipe Website project.">
+        <div class="card-body">
+          <h2>Accessible Recipe Website</h2>
+          <p>A responsive recipe site built to WCAG 2.2 AA.</p>
+          <div class="card-actions">
+            <button type="button" class="btn btn-secondary" data-dialog-open
+              data-title="Accessible Recipe Website"
+              data-summary="A multi-page recipe site built with semantic HTML, CSS and JavaScript. It focuses on keyboard navigation, clear contrast and screen reader support. (Holding text: replace with your own summary.)"
+              data-href="project.html?project=recipe">Quick view<span class="visually-hidden-text"> of Accessible Recipe Website</span></button>
+            <a class="btn" href="project.html?project=recipe">Full details<span class="visually-hidden-text"> of Accessible Recipe Website</span></a>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <img src="images/project-placeholder.svg" width="400" height="240" alt="Placeholder screenshot for the Student Timetable App project.">
+        <div class="card-body">
+          <h2>Student Timetable App</h2>
+          <p>A JavaScript app for planning weekly study sessions.</p>
+          <div class="card-actions">
+            <button type="button" class="btn btn-secondary" data-dialog-open
+              data-title="Student Timetable App"
+              data-summary="A client-side app that lets students add, edit and remove study sessions, saved in local storage. (Holding text: replace with your own summary.)"
+              data-href="project.html?project=timetable">Quick view<span class="visually-hidden-text"> of Student Timetable App</span></button>
+            <a class="btn" href="project.html?project=timetable">Full details<span class="visually-hidden-text"> of Student Timetable App</span></a>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <img src="images/project-placeholder.svg" width="400" height="240" alt="Placeholder screenshot for the Usability Study project.">
+        <div class="card-body">
+          <h2>Usability Study of a Library Website</h2>
+          <p>A heuristic evaluation with prioritised recommendations.</p>
+          <div class="card-actions">
+            <button type="button" class="btn btn-secondary" data-dialog-open
+              data-title="Usability Study of a Library Website"
+              data-summary="An expert review using Nielsen's ten heuristics, with severity ratings and suggested fixes. (Holding text: replace with your own summary.)"
+              data-href="project.html?project=usability">Quick view<span class="visually-hidden-text"> of Usability Study</span></button>
+            <a class="btn" href="project.html?project=usability">Full details<span class="visually-hidden-text"> of Usability Study</span></a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <h2 id="dialog-title">Project title</h2>
+      <p id="dialog-body">Project summary</p>
+      <div class="dialog-actions">
+        <a id="dialog-link" class="btn" href="project.html">Full details</a>
+        <button type="button" id="dialog-close" class="btn btn-secondary">Close</button>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Furqan Haydar Iqbal. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

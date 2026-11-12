@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me | Furqan Haydar Iqbal Portfolio</title>
+  <meta name="description" content="Contact form for questions, comments and placement opportunities.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="site-title"><a href="index.html">Furqan Haydar Iqbal</a></p>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="interests.html">Technical Interests</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1>Contact me</h1>
+    <p class="lead">Send me a question, comment or placement opportunity. All fields are required.</p>
+
+    <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+
+    <form id="contact-form" novalidate>
+      <div class="field">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+        <p id="name-error" class="error-msg" hidden></p>
+      </div>
+
+      <div class="field">
+        <label for="email">Email address <span class="hint">For example name@example.com</span></label>
+        <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+        <p id="email-error" class="error-msg" hidden></p>
+      </div>
+
+      <div class="field">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required aria-describedby="subject-error">
+          <option value="">Choose a subject</option>
+          <option value="placement">Placement opportunity</option>
+          <option value="question">Question about my work</option>
+          <option value="feedback">Feedback on this site</option>
+          <option value="other">Other</option>
+        </select>
+        <p id="subject-error" class="error-msg" hidden></p>
+      </div>
+
+      <div class="field">
+        <label for="message">Message <span class="hint">At least 10 characters</span></label>
+        <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+        <p id="message-error" class="error-msg" hidden></p>
+      </div>
+
+      <button type="submit" class="btn">Send message</button>
+      <button type="reset" class="btn btn-secondary">Clear form</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Furqan Haydar Iqbal. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
