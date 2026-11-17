@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-label="Placeholder illustration">
-  <rect width="480" height="320" fill="#dfe6f3"/>
-  <rect x="90" y="70" width="300" height="180" rx="14" fill="#ffffff" stroke="#123673" stroke-width="6"/>
-  <rect x="115" y="100" width="150" height="14" fill="#1b4fa8"/>
-  <rect x="115" y="130" width="250" height="10" fill="#9aa6bf"/>
-  <rect x="115" y="155" width="220" height="10" fill="#9aa6bf"/>
-  <rect x="115" y="190" width="90" height="30" rx="6" fill="#123673"/>
+  <rect width="480" height="320" fill="#f3e3e8"/>
+  <rect x="90" y="70" width="300" height="180" rx="14" fill="#ffffff" stroke="#5e0f26" stroke-width="6"/>
+  <rect x="115" y="100" width="150" height="14" fill="#8c1c3a"/>
+  <rect x="115" y="130" width="250" height="10" fill="#b9a3aa"/>
+  <rect x="115" y="155" width="220" height="10" fill="#b9a3aa"/>
+  <rect x="115" y="190" width="90" height="30" rx="6" fill="#5e0f26"/>
 </svg>
